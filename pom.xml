@@ -1,17 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/3.9.1"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/3.9.1 http://maven.apache.org/xsd/maven-3.9.1.xsd">
-  <modelVersion>3.9.1</modelVersion>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
   <groupId>onlinebookstore</groupId>
   <artifactId>onlinebookstore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   
   
-  <description>Online book Stores</description>
+  <description>Online book Store</description>
 
   <organization>
-    <name>Koftown Tec</name>
+    <name>Koftown Tech</name>
     <url>http://koftowntech.com/</url>
   </organization>
 
@@ -20,7 +20,7 @@
     <spring.version>5.1.2.RELEASE</spring.version>
     <junit.version>4.11</junit.version>
     <log4j.version>1.2.17</log4j.version>
-    <sonar.host.url>http:54.208.172.99/:9000/</sonar.host.url>
+    <sonar.host.url>http:54.174.38.241:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>admin</sonar.password> 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,13 +31,13 @@
       <repository>
         <id>nexus</id>
         <name>Koftown Tech Releases Nexus Repository</name>
-        <url>http://54.209.48.237:8081/repository/onlineshoprelease/</url>
+        <url>http://52.54.253.226:8081/repository/onlinebookstore-release/</url>
       </repository>
       
       <snapshotRepository>
         <id>nexus</id>
         <name>Koftown Tech Snapshot Nexus Repository </name>
-        <url>http://54.209.48.237:8081/repository/onlineshopsnapshort/</url>
+        <url>http://52.54.253.226:8081/repository/onlinebookstore-snapshot/</url>
       </snapshotRepository>
       
   </distributionManagement>
